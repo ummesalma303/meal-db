@@ -26,7 +26,7 @@ button{
   margin: 0 15px;
   text-decoration: none;
 }
-.active {
+.navlink a.active {
   color: red;
 }
 
@@ -38,6 +38,12 @@ button{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.errorPage{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
 }
 .content h2{
   font-size: 49px;
@@ -65,4 +71,7 @@ button{
 }
 .card img{
   width: 190px;
+}
+.card button{
+  margin: 10px 5px;
 }
