@@ -1,0 +1,54 @@
+#root {
+  text-align: center;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+.nav h2{
+  font-size: 28px;
+}
+
+button{
+  background-color: #FFC107;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+}
+.navlink a{
+  margin: 0 15px;
+  text-decoration: none;
+}
+.active {
+  color: red;
+}
+
+
+.banner{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.212),rgba(0, 0, 0, 0.342)),url(./assets/images/banner.png);
+  height: 70vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content h2{
+  font-size: 49px;
+}
+.content p{
+  width: 50%;
+  margin: 10px auto;
+}
+.content input{
+  padding: 6px 10px;
+}
+.content button{
+  border-radius: 0 6px 6px 0;
+}
