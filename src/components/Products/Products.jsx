@@ -1,13 +1,16 @@
 import { useLoaderData } from "react-router-dom";
+import Product from "../Product/Product";
 
 const Products = () => {
-    const card = useLoaderData();
-    console.log(card);
-    // const { strMeal } = card;
+    const cards = useLoaderData();
+    // const newCards = card.meals
+   console.log(cards)
     return (
-        <div>
-            <h2></h2>
-            <h2>Total card: {card.length}</h2>
+        <div className="card-container">
+            {/* <h2>{ cards.meals.length}</h2> */}
+            {
+              cards.meals.map((card)=><Product key={card.idMeal} card={card}></Product>)  
+            }
         </div>
     );
 };
